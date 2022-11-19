@@ -1,0 +1,19 @@
+$bold: #090909;
+$orange: #FF9C08;
+$text: #6E6E6E;
+$bg: #FEF9F2;
+
+@mixin d400 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+}
+
+@mixin d700 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+}
+
+@mixin r700 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}

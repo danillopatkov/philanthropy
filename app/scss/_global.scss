@@ -1,0 +1,45 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: $text;
+}
+
+button {
+    border: none;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    color: $text;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}

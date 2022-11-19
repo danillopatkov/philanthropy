@@ -1,0 +1,78 @@
+@import '_vars';
+@import '_global';
+@import '_fonts';
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    min-height: 120px;
+    align-items: center;
+}
+
+.header__logo {
+    height: 32px;
+}
+
+.header__links {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.header__link {
+    @include d400;
+    line-height: 30px;
+
+    & + & {
+        margin-left: 26px;
+    }
+
+    a {
+        color: $bold;
+    }
+}
+
+.header__buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.busket {
+    position: relative;
+
+    span {
+        height: 22px;
+        width: 22px;
+        background-color: $orange;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: -25%;
+        right: 56.25%;
+        top: calc(50% - 22px/2 + 14px);
+    }
+
+    img {
+        height: 34px;
+    }
+}
+
+.header__button {
+    margin-left: 25px;
+
+    button {
+        padding: 16px 24px 20px;
+        background-color: $orange;
+        @include d700;
+        font-size: 16px;
+        line-height: 18px;
+        border-radius: 10px;
+    }
+}
